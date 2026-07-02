@@ -109,7 +109,12 @@ export async function loginUser(req, res) {
 
 // POST/GET: /api/users/logout
 export async function logoutUser(req, res) {
-    res.clearCookie('token');
+    res.clearCookie('token', {
+        httpOnly: true,
+        secure: process.env.NODE_ENV === "production",
+        sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
+        path: "/"
+    });
 
     return res.status(200).json({
         success: true,
