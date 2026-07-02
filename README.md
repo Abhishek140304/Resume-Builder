@@ -21,7 +21,7 @@
 🚀 **Deployed Application**
 
 ```text
-https://your-project-name.vercel.app
+https://resume-builder-resgen.vercel.app
 ```
 
 ---
