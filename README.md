@@ -1,97 +1,202 @@
 # 🚀 AI Resume Builder
 
+<div align="center">
 
-<p align="center">
-  <b>Create, manage, and share professional resumes with AI-powered assistance.</b>
-</p>
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-22-green?logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-black?logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-green?logo=mongodb)
+![Redux](https://img.shields.io/badge/Redux_Toolkit-purple?logo=redux)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-blue?logo=tailwindcss)
+
+# 🤖 AI Resume Builder
+### Create, manage, and share professional resumes with AI-powered assistance.
+
+</div>
 
 ---
 
-# 📌 Overview
+# 🌐 Live Demo
 
-AI Resume Builder is a full-stack web application that allows users to create, edit, manage, and share resumes efficiently. The platform combines modern frontend technologies with a powerful Node.js backend and AI integration to help users generate high-quality resume content.
+🚀 **Deployed Application**
 
-The application includes:
+```text
+https://your-project-name.vercel.app
+```
 
-- 🔐 Secure authentication system
-- 🤖 AI-assisted resume generation
-- 📄 Resume creation and management
-- ☁️ File uploads and storage
-- 📤 Resume sharing and downloading
-- 📱 Responsive UI for desktop and mobile devices
+---
+
+# 📖 Overview
+
+AI Resume Builder is a modern full-stack web application that helps users create professional resumes quickly and efficiently with the help of Artificial Intelligence.
+
+The platform provides:
+
+- 🔐 Secure Authentication
+- 🤖 AI-Powered Resume Writing
+- 📄 Resume Creation & Management
+- ☁️ Cloud Storage Integration
+- 📤 Resume Sharing & Downloading
+- 📱 Fully Responsive User Interface
+
+The application is designed for students, job seekers, and professionals who want to build ATS-friendly resumes with minimal effort.
 
 ---
 
 # ✨ Features
 
-## 🔐 Authentication System
-- User registration and login.
-- Password encryption using **bcrypt**.
+# 🔐 Authentication System
+
+### User Registration
+- Create an account securely.
+- Email and password-based authentication.
+- Validation for invalid credentials.
+
+### User Login
 - JWT-based authentication.
 - Secure cookie handling.
-- Protected routes and middleware.
+- Persistent login sessions.
+
+### Password Security
+- Password hashing using bcrypt.
+- Protected against plain-text password storage.
+
+### Route Protection
+- Middleware-based authorization.
+- Private pages accessible only to authenticated users.
 
 ---
 
-## 👤 User Management
-- Create user accounts.
-- Login and logout functionality.
-- Store user profile information.
-- Persistent authentication state.
+# 👤 User Management
+
+### User Profiles
+- Store personal information.
+- Maintain authentication state.
+- Easy login/logout functionality.
+
+### Session Management
+- Automatic authentication persistence.
+- Secure session handling.
 
 ---
 
-## 📄 Resume Management
-- Create new resumes.
-- Edit existing resumes.
-- Delete resumes.
-- Store multiple resumes per user.
-- Save resume information in MongoDB.
+# 📄 Resume Management
+
+### Create Resume
+Users can:
+
+✅ Create multiple resumes.
+
+✅ Add personal information.
+
+✅ Add education details.
+
+✅ Add projects and experience.
+
+✅ Add skills and certifications.
 
 ---
 
-## 🤖 AI Resume Assistance
-- AI-powered content generation.
-- Generate professional summaries.
-- Improve resume descriptions.
-- Assist with skills and experience sections.
-- Reduce manual writing effort.
+### Edit Resume
+- Update resume information anytime.
+- Modify sections independently.
 
 ---
 
-## ☁️ File Upload Support
-- Upload profile images and resume assets.
-- Integration with ImageKit.
-- Secure file handling using Multer.
+### Delete Resume
+- Remove unwanted resumes permanently.
 
 ---
 
-## 📤 Resume Sharing & Export
-- Share resume using generated links.
-- Print and download resume.
-- Public resume viewing support.
+### Multiple Resume Support
+- Store multiple resumes under a single account.
+- Manage resumes independently.
 
 ---
 
-## 🎨 Modern User Interface
-- Responsive design.
-- Built with React and Tailwind CSS.
+# 🤖 AI Resume Assistance
+
+The application's biggest feature is AI-powered resume generation.
+
+### AI Features
+
+#### Professional Summary Generation
+Generate impressive professional summaries instantly.
+
+#### Experience Enhancement
+Improve job descriptions using AI.
+
+#### Skills Suggestions
+Receive relevant skills based on your profile.
+
+#### Content Optimization
+Generate ATS-friendly content and professional wording.
+
+#### Reduced Manual Effort
+Create professional resumes in minutes instead of hours.
+
+---
+
+# ☁️ File Upload & Storage
+
+### Image Upload Support
+- Upload profile images.
+- Upload resume assets.
+
+### ImageKit Integration
+- Secure cloud storage.
+- Optimized image delivery.
+- Fast loading.
+
+### Multer Integration
+- Secure file handling.
+- Backend upload management.
+
+---
+
+# 📤 Resume Sharing & Export
+
+### Share Resume
+- Generate public links.
+- Share resumes with recruiters.
+
+### Public Resume Viewing
+- Recruiters can access resumes directly.
+
+### Download & Print
+- Download resumes.
+- Print directly from the browser.
+
+---
+
+# 🎨 Modern User Interface
+
+### Responsive Design
+- Desktop support.
+- Tablet support.
+- Mobile support.
+
+### User Experience
+- Beautiful UI with Tailwind CSS.
+- Smooth navigation.
 - Toast notifications.
-- Reusable components.
-- Fast navigation with React Router.
+- Modern icons.
 
 ---
 
-## ⚡ State Management
-- Redux Toolkit for global state.
-- Authentication state management.
-- Efficient data flow.
+# ⚡ State Management
+
+### Redux Toolkit
+- Centralized state management.
+- Authentication state.
+- Resume state management.
+- Predictable data flow.
 
 ---
 
 # 🛠️ Tech Stack
 
-## Frontend
+# 🎨 Frontend
 
 | Technology | Purpose |
 |------------|----------|
@@ -100,15 +205,15 @@ The application includes:
 | 🎨 Tailwind CSS | Styling |
 | 🧭 React Router DOM | Routing |
 | 📦 Redux Toolkit | State Management |
-| 🔄 React Redux | Store Integration |
-| 🌐 Axios | API Requests |
+| 🔄 React Redux | Redux Integration |
+| 🌐 Axios | API Communication |
 | 🔔 React Hot Toast | Notifications |
 | 🎯 Lucide React | Icons |
 | 🎨 React Icons | Additional Icons |
 
 ---
 
-## Backend
+# 🖥️ Backend
 
 | Technology | Purpose |
 |------------|----------|
@@ -117,12 +222,12 @@ The application includes:
 | 🍃 MongoDB | Database |
 | 🗄️ Mongoose | ODM |
 | 🔑 JWT | Authentication |
-| 🔒 bcrypt | Password Hashing |
-| 🍪 Cookie Parser | Cookie Management |
-| 🌍 CORS | Cross-Origin Requests |
+| 🔒 bcrypt | Password Security |
+| 🍪 Cookie Parser | Cookie Handling |
+| 🌍 CORS | Cross-Origin Communication |
 | 📧 Nodemailer | Email Services |
 | 📂 Multer | File Upload |
-| ☁️ ImageKit | Media Storage |
+| ☁️ ImageKit | Cloud Storage |
 | 🤖 OpenAI SDK | AI Features |
 
 ---
@@ -133,7 +238,7 @@ The application includes:
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/Abhishek140304/Resume-Builder.git
+git clone https://github.com/Abhishek140304/Resume-Builder
 cd Resume-Builder
 ```
 
@@ -159,29 +264,28 @@ npm install
 
 # 🔑 Environment Variables
 
-## Backend `.env`
+## Backend (.env)
 
 ```env
 PORT=5000
 MONGODB_URI=
 JWT_SECRET=
 OPENAI_API_KEY=
-OPENAI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
-OPEN_AI_MODEL = "gemini-3.5-flash"
+OPENAI_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/
+OPEN_AI_MODEL=gemini-3.5-flash
 
 IMAGEKIT_PRIVATE_KEY=
 
 EMAIL=
 EMAIL_PASSWORD=
 
-NODE_ENV='development'
+NODE_ENV=development
 CLIENT_URL=http://localhost:5173
-
 ```
 
 ---
 
-## Frontend `.env`
+## Frontend (.env)
 
 ```env
 VITE_BASE_URL=http://localhost:5000
@@ -217,13 +321,13 @@ npm run dev
 
 # 🌐 Application URLs
 
-Frontend:
+### Frontend
 
 ```text
 http://localhost:5173
 ```
 
-Backend:
+### Backend
 
 ```text
 http://localhost:5000
@@ -233,35 +337,47 @@ http://localhost:5000
 
 # 🔄 Application Flow
 
-1. User registers or logs in.
-2. JWT token is generated.
-3. User creates or edits resumes.
-4. Resume data is stored in MongoDB.
-5. AI generates professional content.
-6. User downloads or shares resume.
+```text
+User Registration/Login
+          ↓
+JWT Authentication
+          ↓
+Resume Creation
+          ↓
+Resume Stored in MongoDB
+          ↓
+AI Content Generation
+          ↓
+Download / Share Resume
+```
 
 ---
 
+# 🎯 Major Highlights
 
-# 🚀 Future Improvements
+✅ Full Stack MERN Project
 
-- Multiple resume templates
-- PDF export customization
-- Dark mode
-- Resume analytics
-- Drag-and-drop sections
-- ATS score checker
-- Resume version history
-- Multi-language support
+✅ Authentication System
 
+✅ AI Integration
+
+✅ Cloud Image Storage
+
+✅ Resume Sharing
+
+✅ Responsive Design
+
+✅ Production Ready Architecture
 
 ---
 
+# 🔮 Future Improvements
 
-# ⭐ Support
-
-If you found this project useful:
-
-🌟 Star the repository  
-🍴 Fork the repository  
-🛠️ Contribute to the project
+- 📄 Multiple Resume Templates
+- 🎨 PDF Export Customization
+- 🌙 Dark Mode
+- 📊 Resume Analytics
+- 🖱️ Drag and Drop Sections
+- 🤖 ATS Score Checker
+- 🕒 Resume Version History
+- 🌍 Multi-language Support
